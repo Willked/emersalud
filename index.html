@@ -1,11 +1,112 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EMERSALUD - Inicio</title>
+
+    <!-- SEO Meta Tags -->
+    <title>EMERSALUD - Servicios Médicos de Emergencia y Ambulancias en Ibagué</title>
+    <meta name="description"
+        content="EMERSALUD ofrece servicios médicos de emergencia, traslados en ambulancia y atención prehospitalaria en Ibagué, Tolima. Atención 24/7 con profesionales capacitados.">
+    <meta name="keywords"
+        content="ambulancia, emergencias médicas, servicios médicos, Ibagué, Tolima, traslados médicos, atención prehospitalaria, EMERSALUD">
+    <meta name="author" content="EMERSALUD">
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="EMERSALUD - Servicios Médicos de Emergencia en Ibagué">
+    <meta property="og:description"
+        content="Servicios médicos de emergencia, traslados en ambulancia y atención prehospitalaria con calidad y compromiso en Ibagué, Tolima.">
+    <meta property="og:image" content="https://emersaludweb.web.app/Sources/Logo EMERSALUD CUADRADO.jpg">
+    <meta property="og:url" content="https://emersaludweb.web.app">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="EMERSALUD">
+    <meta property="og:locale" content="es_CO">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="EMERSALUD - Servicios Médicos de Emergencia en Ibagué">
+    <meta name="twitter:description"
+        content="Servicios médicos de emergencia, traslados en ambulancia y atención prehospitalaria con calidad y compromiso.">
+    <meta name="twitter:image" content="https://emersaludweb.web.app/Sources/Logo EMERSALUD CUADRADO.jpg">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://emersaludweb.web.app">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/jpeg" href="Sources/Logo chiquito Emersalud.jpg">
+    <link rel="apple-touch-icon" href="Sources/Logo chiquito Emersalud.jpg">
+
+    <!-- Styles -->
     <link rel="stylesheet" href="Styles\styles.css">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "MedicalBusiness",
+        "name": "EMERSALUD",
+        "description": "Servicios médicos de emergencia, traslados en ambulancia y atención prehospitalaria en Ibagué, Tolima",
+        "url": "https://emersaludweb.web.app",
+        "logo": "https://emersaludweb.web.app/Sources/Logo EMERSALUD CUADRADO.jpg",
+        "image": "https://emersaludweb.web.app/Sources/Logo EMERSALUD CUADRADO.jpg",
+        "telephone": "+57-314-332-4458",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Mz 11 casa 8 cuarta etapa",
+            "addressLocality": "Praderas de santa rita",
+            "addressRegion": "Tolima",
+            "addressCountry": "CO",
+            "postalCode": "730001"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "4.4447",
+            "longitude": "-75.2422"
+        },
+        "areaServed": {
+            "@type": "City",
+            "name": "Ibagué"
+        },
+        "serviceType": [
+            "Servicios de Ambulancia",
+            "Atención Médica de Emergencia",
+            "Traslados Médicos",
+            "Atención Prehospitalaria"
+        ],
+        "openingHours": "Mo-Su 00:00-23:59",
+        "priceRange": "$$",
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Servicios Médicos",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Servicios de Ambulancia",
+                        "description": "Traslados médicos de emergencia con equipos especializados"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Atención Médica de Emergencia",
+                        "description": "Atención médica especializada en situaciones de emergencia"
+                    }
+                }
+            ]
+        },
+        "sameAs": [
+            "https://emersaludweb.web.app"
+        ]
+    }
+    </script>
 </head>
+
 <body>
     <!-- HEADER -->
     <header id="header">
@@ -13,7 +114,8 @@
             <div class="header-content">
                 <!-- Logo y Nombre -->
                 <div class="logo-section" onclick="navigateTo('index.html')">
-                    <img src="Sources/Logo chiquito Emersalud.jpg" alt="Logo EMERSALUD" class="logo">
+                    <img src="Sources/Logo chiquito Emersalud.jpg"
+                        alt="Logo EMERSALUD - Servicios Médicos de Emergencia en Ibagué" class="logo">
                     <span class="company-name">EMERSALUD</span>
                 </div>
 
@@ -27,15 +129,19 @@
 
                 <!-- Teléfono -->
                 <div class="phone-desktop">
-                    <svg class="phone-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                    <svg class="phone-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2">
+                        <path
+                            d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                        </path>
                     </svg>
                     <span>Llámanos al 314 332 4458</span>
                 </div>
 
                 <!-- Menú móvil -->
                 <button class="menu-toggle" id="menuToggle">
-                    <svg class="menu-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <svg class="menu-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2">
                         <line x1="3" y1="12" x2="21" y2="12"></line>
                         <line x1="3" y1="6" x2="21" y2="6"></line>
                         <line x1="3" y1="18" x2="21" y2="18"></line>
@@ -50,8 +156,11 @@
                 <a href="galeria.html" class="nav-mobile-link">GALERÍA</a>
                 <a href="contacto.html" class="nav-mobile-link">CONTACTOS</a>
                 <div class="phone-mobile">
-                    <svg class="phone-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                    <svg class="phone-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2">
+                        <path
+                            d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                        </path>
                     </svg>
                     <span>314 332 4458</span>
                 </div>
@@ -66,7 +175,7 @@
         <div class="hero-content">
             <h1 class="hero-title animate-fade-in">CUIDADO MÉDICO INTEGRAL</h1>
             <p class="hero-description animate-slide-up">
-                Brindamos servicios médicos de emergencia, traslados en ambulancia y 
+                Brindamos servicios médicos de emergencia, traslados en ambulancia y
                 asistencia médica con calidad y compromiso.
             </p>
         </div>
@@ -82,10 +191,10 @@
                 <div class="content-card">
                     <h3 class="card-title-green">Misión</h3>
                     <p class="card-text">
-                        Proveer servicios de atención prehospitalaria, urgencias, emergencias y 
-                        traslados asistenciales de alta calidad, con rapidez, eficiencia y calidez 
-                        humana. Nos comprometemos a salvaguardar la vida y el bienestar de nuestros 
-                        pacientes, utilizando tecnología de vanguardia y contando con un equipo de 
+                        Proveer servicios de atención prehospitalaria, urgencias, emergencias y
+                        traslados asistenciales de alta calidad, con rapidez, eficiencia y calidez
+                        humana. Nos comprometemos a salvaguardar la vida y el bienestar de nuestros
+                        pacientes, utilizando tecnología de vanguardia y contando con un equipo de
                         profesionales altamente capacitados y con un profundo sentido ético y social.
                     </p>
                 </div>
@@ -94,10 +203,10 @@
                 <div class="content-card">
                     <h3 class="card-title-green">Visión</h3>
                     <p class="card-text">
-                        Ser la empresa de ambulancias líder y referente en la región, reconocida por 
-                        la excelencia, innovación y confiabilidad de nuestros servicios. Buscamos ser 
-                        el modelo de atención médica prehospitalaria, ampliando continuamente nuestra 
-                        cobertura y capacidad de respuesta, y garantizando la seguridad y tranquilidad 
+                        Ser la empresa de ambulancias líder y referente en la región, reconocida por
+                        la excelencia, innovación y confiabilidad de nuestros servicios. Buscamos ser
+                        el modelo de atención médica prehospitalaria, ampliando continuamente nuestra
+                        cobertura y capacidad de respuesta, y garantizando la seguridad y tranquilidad
                         de nuestros pacientes y sus familias en los momentos de mayor vulnerabilidad.
                     </p>
                 </div>
@@ -107,7 +216,8 @@
             <div class="text-center">
                 <a href="quienes_somos.html" class="btn-primary">
                     VER MÁS
-                    <svg class="btn-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <svg class="btn-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2">
                         <line x1="5" y1="12" x2="19" y2="12"></line>
                         <polyline points="12 5 19 12 12 19"></polyline>
                     </svg>
@@ -125,25 +235,29 @@
             <div class="carousel-container">
                 <div class="carousel-wrapper" id="carouselWrapper">
                     <div class="carousel-slide active">
-                        <img src="Sources/IMG 3.jpeg" alt="Ambulancia EMERSALUD 1">
+                        <img src="Sources/IMG 3.jpeg"
+                            alt="Ambulancia EMERSALUD equipada para emergencias médicas en Ibagué">
                     </div>
                     <div class="carousel-slide">
-                        <video class="Video-carrusel" autoplay muted loop playsinline poster="/Sources/Video Ambulancia Interior.mp4">
+                        <video class="Video-carrusel" autoplay muted loop playsinline
+                            poster="/Sources/Video Ambulancia Interior.mp4">
                             <source src="Sources/Video Ambulancia Interior.mp4" type="video/mp4">
                             Tu navegador no soporta video HTML5.
                         </video>
                     </div>
                     <div class="carousel-slide">
-                        <img src="Sources/IMG 5.jpeg" alt="Logo EMERSALUD">
+                        <img src="Sources/IMG 5.jpeg"
+                            alt="Logo EMERSALUD - Servicios de Ambulancia y Emergencias Médicas">
                     </div>
                     <div class="carousel-slide">
-                        <video class="Video-carrusel" autoplay muted loop playsinline poster="/Sources/Video Ambulancia Interior.mp4">
+                        <video class="Video-carrusel" autoplay muted loop playsinline
+                            poster="/Sources/Video Ambulancia Interior.mp4">
                             <source src="Sources/Vid Ambulancia exterior 2.mp4" type="video/mp4">
                             Tu navegador no soporta video HTML5.
                         </video>
                     </div>
                     <div class="carousel-slide">
-                        <img src="Sources/Img 4.jpeg" alt="Ambulancia EMERSALUD 2">
+                        <img src="Sources/Img 4.jpeg" alt="Ambulancia EMERSALUD para traslados médicos de emergencia">
                     </div>
                 </div>
 
@@ -173,7 +287,8 @@
             <div class="text-center" style="margin-top: 2rem;">
                 <a href="galeria.html" class="btn-primary">
                     VER MÁS
-                    <svg class="btn-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <svg class="btn-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2">
                         <line x1="5" y1="12" x2="19" y2="12"></line>
                         <polyline points="12 5 19 12 12 19"></polyline>
                     </svg>
@@ -216,7 +331,8 @@
             <div class="footer-grid">
                 <!-- Logo y descripción -->
                 <div class="footer-column">
-                    <img src="Sources/Logo chiquito Emersalud.jpg" alt="Logo EMERSALUD" class="footer-logo">
+                    <img src="Sources/Logo chiquito Emersalud.jpg"
+                        alt="Logo EMERSALUD - Servicios Médicos de Emergencia" class="footer-logo">
                     <p class="footer-description">
                         Servicios médicos de emergencia con calidad y compromiso.
                     </p>
@@ -238,15 +354,19 @@
                     <h3 class="footer-title">Contacto</h3>
                     <div class="footer-contact">
                         <div class="footer-contact-item">
-                            <svg class="footer-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <svg class="footer-icon" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2">
                                 <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
                                 <circle cx="12" cy="10" r="3"></circle>
                             </svg>
                             <p>Mz 11 casa 8 cuarta etapa Praderas de santa rita Ibague - Tolima</p>
                         </div>
                         <div class="footer-contact-item">
-                            <svg class="footer-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                            <svg class="footer-icon" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2">
+                                <path
+                                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                                </path>
                             </svg>
                             <p>314 332 4458</p>
                         </div>
@@ -256,11 +376,13 @@
 
             <!-- Derechos de autor -->
             <div class="footer-copyright">
-                <p>© 2025 EMERSALUD. Todos los derechos reservados. Las imágenes y el contenido están protegidos por derechos de autor.</p>
+                <p>© 2025 EMERSALUD. Todos los derechos reservados. Las imágenes y el contenido están protegidos por
+                    derechos de autor.</p>
             </div>
         </div>
     </footer>
 
     <script src="JS/script.js"></script>
 </body>
+
 </html>

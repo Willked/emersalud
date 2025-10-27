@@ -1,0 +1,18 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://emersaludweb.web.app/sitemap.xml
+
+# Permitir acceso a recursos importantes
+Allow: /Styles/
+Allow: /JS/
+Allow: /Sources/
+
+# Bloquear archivos innecesarios
+Disallow: /firebase.json
+Disallow: /.firebaserc
+Disallow: /.gitignore
+
+# Crawl-delay para ser respetuoso con los servidores
+Crawl-delay: 1
